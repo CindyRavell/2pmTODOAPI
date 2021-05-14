@@ -1,20 +1,30 @@
 {
-  "name": "expressexercise",
+  "name": "NotesRavellously",
   "version": "1.0.0",
   "description": "",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
-    "dev": "nodemon src/server.js"
+    "dev": "nodemon src/index.js"
   },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/CindyRavell/Express_Books.git"
+  },
+  "keywords": [],
   "author": "",
   "license": "ISC",
-  "dependencies": {
-    "express": "^4.17.1",
-    "express-validator": "^6.11.1",
-    "uuid": "^8.3.1"
+  "bugs": {
+    "url": "https://github.com/CindyRavell/Express_Books/issues"
   },
-  "devDependencies": {
-    "nodemon": "^2.0.6"
+  "homepage": "https://github.com/CindyRavell/Express_Books#readme",
+  "dependencies": {
+    "cors": "^2.8.5",
+    "ejs": "^3.1.6",
+    "express": "^4.17.1",
+    "express-myconnection": "^1.0.4",
+    "express-validator": "^6.11.1",
+    "morgan": "^1.10.0",
+    "mysql": "^2.18.1"
   }
 }
